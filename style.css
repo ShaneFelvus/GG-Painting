@@ -69,8 +69,8 @@ nav {
 #hero {
   width: 100%;
   min-height: 100vh;
-  background: (paint.jpg) linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486));
-    
+  background: linear-gradient(rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.486)), paint.jpg;
+  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

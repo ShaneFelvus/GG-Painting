@@ -298,9 +298,9 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
-  body {
+  body,html {
     overflow-x: hidden;
-    width: 100%;
+    width: 100vw;
   }
   .nav-links {
     position: absolute;

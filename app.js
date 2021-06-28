@@ -24,9 +24,9 @@ const navSlide= ()=> {
   
     $(window).scroll(function ()
 {
-    if ($(document).scrollLeft() != 0)
+    if ($(document).scrollRight() != 0)
     {
-        $(document).scrollLeft(0);
+        $(document).scrollRight(0);
     }
 });
  }

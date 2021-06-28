@@ -300,7 +300,7 @@ button:hover {
 
 @media screen and (max-width: 768px) {
   
-  html, body {
+   body {
     
     overflow-x: hidden;
 }

@@ -13,6 +13,10 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
+  .site-wrapper {
+    overflow-x: hidden;
+    position: relative;
+  }
 /* Nav section */
 
 nav {
@@ -299,12 +303,9 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
-  .site-wrapper {
-    overflow-x: hidden;
-    position: relative;
-  }
+  
     
-  }
+ 
   .nav-links {
     position: absolute;
     right: 0px;

@@ -22,7 +22,13 @@ const navSlide= ()=> {
 
     });
   
-   
+    $(window).scroll(function ()
+{
+    if ($(document).scrollLeft() != 0)
+    {
+        $(document).scrollLeft(0);
+    }
+});
  }
 
  navSlide();

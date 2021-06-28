@@ -300,9 +300,10 @@ button:hover {
 
 @media screen and (max-width: 768px) {
   
-   body {
+   html, body {
     
     overflow-x: hidden;
+    position: relative;
 }
 
   .nav-links {

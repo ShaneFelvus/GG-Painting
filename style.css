@@ -299,9 +299,10 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
-  body,html {
+  .site-wrapper {
     overflow-x: hidden;
     position: relative;
+  }
     
   }
   .nav-links {
